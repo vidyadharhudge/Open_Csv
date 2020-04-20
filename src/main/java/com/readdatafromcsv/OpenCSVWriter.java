@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 
 public class OpenCSVWriter
 {
+    /* Setting The Path */
     private static final String STRING_ARRAY_SAMPLE = "sample.csv";
     public static void main(String[] args) throws IOException
     {
@@ -24,7 +25,8 @@ public class OpenCSVWriter
             //Writing records to the file
             csvWriter.writeNext(new String[]{"Sundar Pichai", "sundar.pichai@gmail.com", "+1-1111111111", "India"});
             csvWriter.writeNext(new String[]{"Satya Nadella", "satya.nadella@outlook.com", "+1-1111111112", "India"});
-            csvWriter.writeNext(new String[]{"vidyadhar hudge", "vidyadharhudge1997@gmail.com", "+1-1111111115", "India"});
+            csvWriter.writeNext(new String[]{"Vidyadhar Hudge", "vidyadharhudge1997@gmail.com", "+1-1111111115", "India"});
+            csvWriter.writeNext(new String[]{"Trimbakeshwar Hudge", "trimbakeshwarhudge@gmail.com", "+1-1111111115", "India"});
         }
     }
 }

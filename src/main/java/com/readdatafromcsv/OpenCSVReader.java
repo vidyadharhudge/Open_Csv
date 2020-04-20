@@ -8,7 +8,9 @@ import java.util.List;
 
 public class OpenCSVReader
 {
-    public static void main(String args[]) throws IOException {
+    public static void main(String args[]) throws IOException
+    {
+        /* Setting The Path */
         String path = "user.csv";
         Reader reader = Files.newBufferedReader(Paths.get(path));
         CSVReader csvReader = new CSVReader(reader);
