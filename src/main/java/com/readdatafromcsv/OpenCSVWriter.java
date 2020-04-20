@@ -24,7 +24,7 @@ public class OpenCSVWriter
             //Writing records to the file
             csvWriter.writeNext(new String[]{"Sundar Pichai", "sundar.pichai@gmail.com", "+1-1111111111", "India"});
             csvWriter.writeNext(new String[]{"Satya Nadella", "satya.nadella@outlook.com", "+1-1111111112", "India"});
-            csvWriter.writeNext(new String[]{"Sayali pawade", "sayalipawade05@gmail.com", "+1-1111111112", "India"});
+            csvWriter.writeNext(new String[]{"vidyadhar hudge", "vidyadharhudge1997@gmail.com", "+1-1111111115", "India"});
         }
     }
 }
